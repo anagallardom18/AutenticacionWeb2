@@ -5,10 +5,11 @@ Aplicación de inicio de sesión multifactor
 Permite:
 - Iniciar sesión con contraseña.  
 - Recuperar contraseña olvidada.  
-- Iniciar sesión con biometría.  
 - Iniciar sesión con TOTP (códigos de un solo uso).  
-- Iniciar sesión mediante un dispositivo USB (FIDO2 / Passkeys).  
-- Registrar nuevos usuarios y nuevos dispositivos / credenciales.  
+- Iniciar sesión mediante un dispositivo USB (FIDO2).
+- Iniciar sesión mediante Passkeys.
+- Iniciar sesión mediante biometría.
+- Registrar nuevos usuarios y nuevos dispositivos/credenciales.  
 - Aplicar un segundo factor de autenticación mediante un código OTP enviado por correo electrónico.  
 - Restringir el acceso según la ubicación del usuario, permitiendo que las contraseñas puedan ser sencillas gracias a otros factores de seguridad.
 
@@ -65,5 +66,6 @@ Esquema de la base de datos
 
 pom.xml
 Gestión de dependencias mediante Maven
+
 
 
