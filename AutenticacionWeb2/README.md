@@ -52,7 +52,7 @@ La aplicación estará disponible normalmente en:
 
 http://localhost:8080/AutenticacionWeb2/
 
-**Estructura del proyecto:**
+## Estructura del proyecto:
 
 src/main/java/autenticacion
 Código fuente de la aplicación
@@ -65,3 +65,4 @@ Esquema de la base de datos
 
 pom.xml
 Gestión de dependencias mediante Maven
+
