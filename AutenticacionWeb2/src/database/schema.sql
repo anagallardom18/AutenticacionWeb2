@@ -2,7 +2,7 @@
 -- Esquema de base de datos para AutenticacionWeb2
 -- =========================================
 
--- 1. Crear la base de datos y usarla
+-- 1. Crear la base de datos 
 CREATE DATABASE IF NOT EXISTS autenticacion_db;
 USE autenticacion_db;
 
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS device_locations (
     FOREIGN KEY (usuario_dni) REFERENCES usuarios(dni)
 );
 
--- Tabla para WebAuthn / FIDO2
+-- Tabla para WebAuthn 
 CREATE TABLE IF NOT EXISTS webauthn_credentials (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario_dni VARCHAR(20) NOT NULL,
@@ -80,4 +80,5 @@ CREATE USER 'root'@'localhost' IDENTIFIED BY 'root';
 
 -- Otorgar permisos
 GRANT ALL PRIVILEGES ON autenticacion_db.* TO 'root'@'localhost';
+
 FLUSH PRIVILEGES;
