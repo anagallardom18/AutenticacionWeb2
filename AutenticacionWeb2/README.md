@@ -38,7 +38,7 @@ src/database/schema.sql
 
 Este archivo permite crear automáticamente las tablas necesarias para ejecutar la aplicación.
 
-**Ejecución del proyecto**
+## Ejecución del proyecto
 
 Clonar el repositorio
 
@@ -65,4 +65,5 @@ Esquema de la base de datos
 
 pom.xml
 Gestión de dependencias mediante Maven
+
 
